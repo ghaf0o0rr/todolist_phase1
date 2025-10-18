@@ -1,4 +1,3 @@
-```markdown
 # ToDoList — Python OOP (In-Memory) — Phase 1
 
 A small, layered **ToDoList CLI** that stores data **in memory** (no persistence yet).  
