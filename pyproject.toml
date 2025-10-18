@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "todolist-phase1"
+version = "0.1.0"
+description = "ToDoList CLI (Phase 1 - In-Memory) – Python OOP with layered architecture"
+authors = ["You <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "todolist" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
